@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 *.pyo
 venv/
+pyvenv.cfg
 
 # Fichiers Django
 db.sqlite3
@@ -20,4 +21,3 @@ static/css/output.css
 
 Lib/
 Scripts/
-pyvenv.cfg
