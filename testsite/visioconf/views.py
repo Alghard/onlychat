@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-def index(request):
-  return HttpResponse("C'est ici que je vais travailler sur la visio conf de mon projet perso")
+def video_call(request):
+    return render(request, 'call.html')
